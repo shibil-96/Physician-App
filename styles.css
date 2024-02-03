@@ -1,0 +1,79 @@
+/* media query screen responsive */
+
+/* images */
+.indicator img {
+    height: auto;
+    position: relative;
+    width: 100%;
+    right: 15px;
+}
+
+p{
+    color: #475467;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    height: 300px;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 41px; */
+    flex-shrink: 0;
+    border-radius: 50px 50px var(--radius-none, 0px) var(--radius-none, 0px);
+    background: #FFF;
+    box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05);
+}
+
+
+
+.btn{
+    cursor: pointer;
+    width: 300px;
+    color: #FFFFFF;
+    border-radius: var(--radius-md, 8px);
+    background: #1485FD;
+    /* display: flex; */
+    padding: var(--spacing-xl, 16px) 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-width: thin;
+
+}
+
+.btn:hover{
+    background-color: darkblue;
+    color: white;
+    transition: .5s;
+}
+
+.btn1{
+    cursor: pointer;
+    display: flex;
+    padding: var(--spacing-xl, 16px) 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    background-color: #FFFFFF;
+}
+
+.Line img{
+    height: auto;
+    width: 100%;
+}
+
+/* signin */
+
+
+/* .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+} */
+/*  */
