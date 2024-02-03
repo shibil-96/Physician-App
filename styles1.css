@@ -40,6 +40,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+    margin: -1px;
 }
 
 .col-1 h1 {
@@ -64,7 +65,7 @@
 }
 .col-2 h5{
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 500;
     color: #475467;
 }
 
