@@ -279,7 +279,7 @@ line-height: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
-    left: 30px;
+    left: 49px;
     bottom: -19px;
     position: relative;
 }
@@ -292,7 +292,7 @@ line-height: 20px;
     font-weight: 400;
     line-height: 20px;
     position: relative;
-    left: 30px;
+    left: 49px;
     color: #475467;
     bottom: -15px;
 }
@@ -300,7 +300,7 @@ line-height: 20px;
     position: relative;
     flex-basis: 90%;
     display: flex;
-    height: 37px;
+    height: 25px;
     bottom: -20px;
     justify-content: space-between;
     align-items: center;
@@ -308,9 +308,9 @@ line-height: 20px;
 }
 
 .nav-img {
-    width: 307px;
+    width: 273px;
     position: relative;
-    left: 30px;
+    left: 50px;
     bottom: 19px;
 }
 
@@ -320,4 +320,348 @@ line-height: 20px;
     background-color: #F2F4F8;
     display: flex;
     flex-direction: column;
+}
+
+.P-Minicards {
+    position: absolute;
+    top: 97px;
+    /* align-items: center; */
+    z-index: 1;
+    height: 477px;
+    width: 320px;
+    left: 31px;
+    padding: 40px 0px;
+    /* gap: 41px; */
+    flex-shrink: 0;
+    border-radius: 5px 5px var(--radius-none, 0px) var(--radius-none, 0px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05);
+}
+
+.P-textarea{
+    height: 100px;
+    width: 257px;
+    position: relative;
+    left: 15px;
+    overflow: scroll;
+    bottom: 57px;
+    font-size: 13px;
+    /* padding: 0px 0px; */
+    /* gap: 41px; */
+    padding: 9px;
+    flex-shrink: 0;
+    border-radius: 5px 5px var(--radius-none, 0px) var(--radius-none, 0px);
+    border: 1px solid var(--Colors-Border-border-primary, #D0D5DD);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05);
+
+}
+
+.Ph1 {
+align-self: stretch;
+color: var(--colors-text-text-primary-900, #101828);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+left: 30px;
+position: relative;
+}
+
+.Psh1 {
+align-self: stretch;
+color: var(--colors-text-text-primary-900, #101828);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+top: -30px;
+left: 14px;
+position: relative;
+}
+
+.Ph4 {
+align-self: stretch;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+position: relative;
+left: 30px;
+color: #475467;
+bottom: -14px;
+}
+.Psh4 {
+align-self: stretch;
+font-family: Inter;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+position: relative;
+left: 14px;
+top: -43px;
+color: #475467;
+bottom: 19px;
+}
+
+.nav img {
+width: 307px;
+position: relative;
+left: 42px;
+bottom: 19px;
+}
+
+.Pbtn{
+display: flex;
+cursor: pointer;
+position: relative;
+top: 400px;
+left: 32px;
+width: 290px;
+color: #FFFFFF;
+border-radius: var(--radius-md, 8px);
+background: #1485FD;
+/* display: flex; */
+padding: var(--spacing-xl, 16px) 22px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-width: thin;
+}
+.Pbtn1{
+display: flex;
+cursor: pointer;
+position: relative;
+top: 412px;
+left: 32px;
+width: 290px;
+color: #344054;
+border-radius: var(--radius-md, 8px);
+background: #FFFFFF;
+/* display: flex; */
+padding: var(--spacing-xl, 16px) 22px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-width: thin;
+}
+
+.P-form label{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    color: var(--colors-text-text-secondary-700, #344054);
+    font-family: Inter;
+    top: -58px;
+    left: 17px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.P-textinput {
+    display: flex;
+    position: relative;
+    height: 30px;
+    top: -58px;
+    font-size: 13px;
+    left: 14px;
+    padding: 2px 14px;
+    width: 253px;
+    gap: var(--spacing-md, 8px);
+    /* align-self: stretch; */
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Colors-Border-border-primary, #D0D5DD);
+    background: var(--Colors-Background-bg-primary, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.button, select {
+    height: 47px;
+    padding: 12px;
+    text-transform: none;
+    position: relative;
+    top: -61px;
+    height: 34px;
+    padding-top: 6px;
+    font-size: 13px;
+    left: 14px;
+    width: 285px;
+    align-items: center;
+    gap: var(--spacing-md, 8px);
+    /* align-self: stretch; */
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid var(--Colors-Border-border-primary, #D0D5DD);
+    background: var(--Colors-Background-bg-primary, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+
+
+.Pline img {
+    height: auto;
+    display: flex;
+    top: -2px;
+    width: 117%;
+    position: relative;
+    right: 30px
+}
+
+.P-btn {
+    cursor: pointer;
+    position: relative;
+    bottom: 49px;
+    left: 23px;
+    height: 40px;
+    /* padding-top: 161px; */
+    width: 262px;
+    /* padding: 24px; */
+    /* margin-top: 20px; */
+    font-size: 13px;
+    padding-bottom: -23px;
+    color: #FFFFFF;
+    border-radius: var(--radius-md, 8px);
+    background: #1485FD;
+    /* display: flex; */
+    /* padding: var(--spacing-xl, 16px) 22px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-width: thin;
+}
+
+.P-btn1 {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    bottom: 41px;
+    left: 24px;
+    height: 35px;
+    font-size: 13px;
+    width: 261px;
+    color: #344054;
+    border-radius: var(--radius-md, 8px);
+    background: #FFFFFF;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-width: thin;
+}
+
+.P-Backicon img {
+    position: relative;
+    bottom: 68px;
+    left: 119px;
+    height: 18px;
+}
+.Backicon img {
+position: relative;
+top: 376px;
+left: 134px;
+}
+
+
+/* profile */
+.P1-Minicards {
+    position: absolute;
+    top: 97px;
+    /* align-items: center; */
+    z-index: 1;
+    height: 423px;
+    width: 320px;
+    left: 31px;
+    padding: 40px 0px;
+    /* gap: 41px; */
+    flex-shrink: 0;
+    border-radius: 5px 5px var(--radius-none, 0px) var(--radius-none, 0px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05);
+}
+
+.Psh1 {
+    align-self: stretch;
+    color: var(--colors-text-text-primary-900, #101828);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    top: -30px;
+    left: 14px;
+    position: relative;
+}
+
+.Ps1h4 {
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    left: 14px;
+    top: -43px;
+    color: #475467;
+    bottom: 19px;
+}
+
+.Ps1h4{
+    align-self: stretch;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    position: relative;
+    left: 14px;
+    top: -40px;
+    color: #475467;
+    bottom: 19px;
+
+}
+
+.dropdown{
+    display: flex;
+    position: relative;
+    top: -26px;
+}
+
+.P1-btn{
+    position: relative;
+    top: 294px;
+}
+
+.P1-form label{
+    display: flex;
+    position: relative;
+    margin-top: 1px;
+    color: var(--colors-text-text-secondary-700, #344054);
+    font-family: Inter;
+    top: -58px;
+    left: 17px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.P1-line img {
+    height: auto;
+    display: flex;
+    top: 287px;
+    width: 117%;
+    position: relative;
+    right: 30px;
 }

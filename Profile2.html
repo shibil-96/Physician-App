@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="multi-select-tag.css">
+    <title>Physical Consulting AI Note</title>
+</head>
+<body class="profile">
+    <div class="container">
+
+    <h1 class="Ph1">Let’s setup your profile.</h1>
+    <h4 class="Ph4">setup your profile in 3 easy steps.</h4>
+     <div class="nav">
+        <img src="Images/Steps2.png" alt="nav" class="nav-img">
+     </div>
+
+     <div class="P1-Minicards">
+
+        <h1 class="Psh1">Choose Specialization</h1>
+        <h4 class="Ps1h4">Choose your medical specialization or field of practice</h4>
+        <h4 class="Ps1h4">Choose your specialization</h4>
+   
+        <form class="P1-form">
+
+                <select name="specialization" id="specialization" multiple title="next" class="dropdown">
+                   <option value="1">⊕ Cardiology</option>
+                   <option value="2">⊕ Dermatology</option>
+                   <option value="3">⊕ Endocrinology</option>
+                   <option value="4">⊕ Gastroenterology</option>
+                   <option value="5">⊕ Hematology</option>
+                   <option value="6">⊕ Internal Medicine</option>
+                   <option value="7">⊕ Nephrology</option>
+               </select>
+        
+       
+       </form>
+         
+       
+
+
+
+
+
+
+
+
+        <div class="P1-btn">     
+        <button type="button" class="P-btn">Next</button></a>
+        <a href="Profile.html">
+        <button type="button" class="P-btn1">Back</button></a>
+        <div class="P-Backicon">
+           <img src="Images/flip-backward.svg" alt="BackIcon">
+        </div> 
+     
+    </div>
+    
+ 
+    <div class="P1-line">
+        <img src="Images/Under line.png" alt="Line">
+    </div>
+
+
+
+
+
+
+     </div>
+
+
+
+    </div>
+
+    <script src="multi-select-tag.js"></script>
+    <script>
+        new MultiSelectTag('specialization')  // id
+    </script>
+</body>
+</html>
