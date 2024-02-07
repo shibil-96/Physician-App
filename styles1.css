@@ -13,6 +13,10 @@
     overflow: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 .image{
     width: 100%;
     display: flex;
@@ -522,6 +526,7 @@ border-width: thin;
     bottom: 49px;
     left: 23px;
     height: 40px;
+    display: flex;
     /* padding-top: 161px; */
     width: 262px;
     /* padding: 24px; */
@@ -665,3 +670,22 @@ left: 134px;
     position: relative;
     right: 30px;
 }
+
+
+/* profile3 */
+.col-md-8{
+    position: relative;
+    width: 89%;
+    padding-right: 15px;
+    padding-left: 32px;
+    bottom: 38px;}
+
+    .search-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        /* border-radius: 50px 50px var(--radius-none, 0px) var(--radius-none, 0px); */
+        /* background: #FFF; */
+        /* box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05); */
+    }
