@@ -331,7 +331,7 @@ line-height: 20px;
     top: 97px;
     /* align-items: center; */
     z-index: 1;
-    height: 622px;
+    height: 471px;
     width: 320px;
     left: 31px;
     padding: 40px 0px;
@@ -712,7 +712,7 @@ left: 134px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 6px 0;
+        margin: 25px 0;
         /* border-radius: 50px 50px var(--radius-none, 0px) var(--radius-none, 0px); */
         background: #FFF;
         /* box-shadow: 0px -4px 6px -2px rgba(16, 24, 40, 0.05); */
@@ -762,7 +762,7 @@ left: 134px;
 
     .tmain-image {
         /* width: 550px; */
-        height: 300px;
+        height: 275px;
         left: 27px;
         position: relative;
         margin: 30px 118px;
@@ -773,6 +773,7 @@ left: 134px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 48px -1px;
     }
 
     .mini{
