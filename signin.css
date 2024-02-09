@@ -28,7 +28,7 @@ a{
     top: 96px;
     /* align-items: center; */
     z-index: 1;
-    height: 402px;
+    height: 430px;
     width: 320px;
     left: 31px;
     padding: 40px 0px;
@@ -73,7 +73,7 @@ a{
 form label {
     display: flex;
     margin-top: 20px;
-    width: 175px;
+    width: 280px;
     color: var(--colors-text-text-secondary-700, #344054);
     font-family: Inter;
     font-size: 14px;
