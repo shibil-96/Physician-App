@@ -242,6 +242,18 @@
 
 /* Quick tour */
 
+.s-container {
+    height: 616px;
+    width: 100%;
+    position: relative;
+    top: 2px;
+    min-height: 100hv;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 .q-row3 {
     display: flex;
     align-items: center;
