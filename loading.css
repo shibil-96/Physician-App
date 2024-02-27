@@ -470,3 +470,40 @@
 a{
     text-decoration: none;
 }
+
+/* quicktourupload */
+
+.btnqkurow2 {
+    display: flex;
+    margin: 4px 0;
+    margin-top: 0px;
+    height: 0px;
+    /* width: 57%; */
+    /* margin-left: 46px; */
+    position: relative;
+    top: -316px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
+
+
+/* quicktourpatientprofile */
+
+.btnqkprow2 {
+    display: flex;
+    margin: 4px 0;
+    margin-top: 0px;
+    height: 0px;
+    /* width: 57%; */
+    /* margin-left: 46px; */
+    position: relative;
+    top: -318px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-decoration: none;
+}
