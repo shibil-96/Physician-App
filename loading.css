@@ -5,6 +5,7 @@
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  color: #475467;
   font-variation-settings:
     "slnt" 0;
 }
@@ -328,8 +329,7 @@
 
 .qs-col-3 h5 {
     font-size: 14px;
-    font-weight: 100;
-    color: #101828;
+    font-weight: 400;
     font-size: 13px;
     /* justify-items: self-start; */
     margin-top: -3px;
@@ -377,8 +377,7 @@
 
 .qs-col-5 h5 {
     font-size: 14px;
-    font-weight: 500;
-    color: #101828;
+    font-weight: 400;
     position: relative;
     bottom: -12px;
     left: 4px;
